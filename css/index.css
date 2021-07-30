@@ -1,0 +1,188 @@
+/*GLOBAL*/
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 64px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.line {
+    background-image: url('../img/line.png');
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+/*HEADER*/
+
+.header__logoImg {
+    float: left;
+}
+
+.header__logoSlg {
+    float: right;
+    margin-right: 120px;
+}
+
+.header__navbar ul {
+    list-style: none;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.header__navbar ul li {
+    display: inline-block;
+}
+
+.header__navbar ul a {
+    text-decoration: none;
+    color: #636363;
+    text-transform: uppercase;
+    font-size: 1.13vw;
+    padding: 0 0.3em;
+    /*trong trường hợp này 1em bằng 1.13vw*/
+    font-weight: bold;
+}
+
+.header__navbar ul a:hover {
+    border-bottom: 2px solid #A51920;
+}
+
+
+.header__navbar ul .active {
+    border-bottom: 2px solid #A51920;
+}
+
+/*CAROUSEL*/
+
+.carousel {
+    margin-top: 20px;
+    background: url('../img/slider_1.png') no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*INTRO*/
+
+.intro {
+    text-align: center;
+    color: #636363;
+    line-height: 25px;
+    padding: 0 25px;
+}
+
+/*PROGRAM*/
+
+.program__item {
+    float: left;
+    width: calc(100% / 4);
+    padding: 0 10px;
+}
+
+.program__item img {
+    width: 100%;
+}
+
+.program__item h3 {
+    color: #A51920;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px 0 5px;
+}
+
+.program__item p {
+    color: #636363;
+    margin: 0;
+    font-size: 14px;
+}
+
+/*NEWS*/
+
+.news{
+    margin-bottom: 20px;
+}
+.news__left,
+.news__right {
+    float: left;
+    width: 50%;
+    padding:0 5px;
+}
+
+.news__text {
+    position: relative;
+}
+
+.news__text img {
+    width: 100%;
+    display: block;
+}
+
+.news__text p {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    padding: 15px 10px;
+    margin: 0;
+}
+
+.news__left .news__text p {
+    font-size: 24px;
+}
+
+.news__right .news__small-item{
+    float:left;
+    width:50%;
+    padding: 0px 6.5px 10px;
+}
+
+.news__text hr{
+    margin:0;
+    height:5px;
+    background-color:#A51920;
+    margin-top: 3px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #A51920;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+.footer img {
+    float: left;
+}
+
+.footer p {
+    float: right;
+    width: 50%;
+    text-align: justify;
+    word-spacing: 2px;
+}
